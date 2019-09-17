@@ -5,7 +5,7 @@ export class Empresaa{
 
 
 
-  constructor(idA : string, nom : string, co: string) {
+  constructor(idA : string, nom : string) {
     this.id=idA
 		this.nombre=nom
 	
