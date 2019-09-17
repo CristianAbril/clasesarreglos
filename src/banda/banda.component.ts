@@ -1,6 +1,6 @@
 import { Component} from '@angular/core';
-import {Artista}  from './Artista';
-import {Empresa}  from './Empresa';
+import {Artistaa}  from './Artista';
+import {Empresaa}  from './Empresa';
 
 @Component({
   selector: 'app-bandas',
@@ -9,7 +9,7 @@ import {Empresa}  from './Empresa';
 })
 export class Artista1{
   
-  artistas:Artista[];
+  artistas:Artistaa[];
 
   constructor(){
   this.artistas=new Artistaa[7]();
@@ -26,8 +26,8 @@ export class Artista1{
 
 
 }
-export class Empresa{
-    empresas:Empresa [];
+export class Empresa1{
+    empresas:Empresa1[];
     constructor(){
       this.empresas=new Empresaa[4]();
 
