@@ -27,7 +27,7 @@ export class Artista1{
 
 }
 export class Empresa1{
-    empresas:Empresa1[];
+    empresas:Empresaa[];
     constructor(){
       this.empresas=new Empresaa[4]();
 
