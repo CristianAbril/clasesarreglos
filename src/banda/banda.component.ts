@@ -2,7 +2,7 @@ import { Component} from '@angular/core';
 import {Bandass}  from './bandass' ;
 
 @Component({
-  selector: 'app-banda',
+  selector: 'app-bandas',
   templateUrl: './banda.component.html',
   styleUrls: ['./banda.component.css']
 })

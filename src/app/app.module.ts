@@ -12,7 +12,7 @@ import {Bandan} from '../banda/banda.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, persona, pelicula, paciente1],
+  declarations: [ AppComponent, HelloComponent, persona, pelicula, paciente1,Bandan],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
