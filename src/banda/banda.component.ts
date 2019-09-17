@@ -9,12 +9,18 @@ import {Bandass}  from './bandass' ;
 export class Bandan{
   banda1: Bandass;
   banda2: Bandass;
-  banda3 :Bandass;
+  banda3: Bandass;
+  banda4: Bandass;
+  banda5: Bandass;
+  
 
   constructor(){
-   this.banda1 =new Bandass("Harry","descpripcion");
-   this.banda2 =new Bandass("Harry", "descripcion");
-   this.banda3 =new Bandass("Harry","descripcion");
+   this.banda1 =new Bandass("IDEmpresa","1","2","3");
+   this.banda2 =new Bandass("Empresa", "Youtube","");
+   this.banda3 =new Bandass("IDArtista","100");
+  this.banda4 =new Bandass("Artista","NoFeedBack");
+  this.banda5 =new Bandass("Cantidad de Artistas","10");
+
 
   }
 }
