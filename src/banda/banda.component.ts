@@ -6,15 +6,15 @@ import {Bandass}  from './bandass' ;
   templateUrl: './banda.component.html',
   styleUrls: ['./banda.component.css']
 })
-export class BandaComponent {
+export class Bandan{
   banda1: Bandass;
   banda2: Bandass;
   banda3 :Bandass;
 
   constructor(){
-   this.banda1 =new Bandass("Harry","descpripcion", "xx");
-   this.banda2 =new Bandass("Harry", "descpriocin", "xx");
-   this.banda3 =new Bandass("Harry3","descripcion", "xx");
+   this.banda1 =new Bandass("Harry","descpripcion");
+   this.banda2 =new Bandass("Harry", "descripcion");
+   this.banda3 =new Bandass("Harry","descripcion");
 
   }
 }

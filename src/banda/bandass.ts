@@ -3,7 +3,7 @@ export class Bandass {
 	descripcion : string
 	
 
-  constructor(nom : string, desc : string, url : string) {
+  constructor(nom : string, desc : string) {
     this.nombre=nom
 		this.descripcion=desc
 	
