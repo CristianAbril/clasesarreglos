@@ -6,11 +6,7 @@ import {Empresaa}  from './Empresa';
   templateUrl: './empresa.component.html',
   styleUrls: ['./empresa.component.css']
 })
-export class EmpresaComponent {
 
-  constructor() { }
-
-}
 export class Empresa1{
     empresas:Empresaa[];
     constructor(){
