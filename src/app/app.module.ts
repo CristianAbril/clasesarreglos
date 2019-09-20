@@ -8,7 +8,7 @@ import {persona} from '../persona/persona.component';
 import {pelicula} from '../pelicula/pelicula/pelicula.component';
 import {paciente1} from '../paciente/paciente/paciente.component';
 import {Artista1} from '../banda/banda.component';
-import {Empresa1} from '../banda/empresa.component';
+import {Empresa1} from '../empresa/empresa.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],

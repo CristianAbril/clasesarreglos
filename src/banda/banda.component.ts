@@ -11,6 +11,7 @@ export class Artista1{
   artistas:Artistaa[];
 
   constructor(){
+  
   this.artistas.push(new Artistaa("100","NoFeedBAck","10","1"));
   this.artistas.push(new Artistaa("658","Shakira","8","1"));
   this.artistas.push(new Artistaa("115","Cabas","6","2"));
