@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { ServicioService } from './Servicios/servicio.service';
+
+
 
 @Component({
   selector: 'my-app', //nombre de la nueva etiqueta html 

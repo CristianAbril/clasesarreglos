@@ -9,10 +9,13 @@ import {pelicula} from '../pelicula/pelicula/pelicula.component';
 import {paciente1} from '../paciente/paciente/paciente.component';
 import {Artista1} from '../banda/banda.component';
 import {Empresa1} from '../empresa/empresa.component';
+import { ServicioService } from './Servicios/servicio.service';
+import { SaludoComponent } from './saludo/saludo/saludo.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, persona, pelicula, paciente1,Artista1,Empresa1],
-  bootstrap:    [ AppComponent ]
+  declarations: [ AppComponent, HelloComponent, persona, pelicula, paciente1,Artista1,Empresa1, SaludoComponent],
+  bootstrap:    [ AppComponent ],
+  providers: [ServicioService]
 })
 export class AppModule { }
