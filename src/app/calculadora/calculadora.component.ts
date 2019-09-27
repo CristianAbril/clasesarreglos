@@ -1,16 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import {CalculadoraService}from '../Servicios/calculadora.service';
+import {ServicioService }from '../Servicios/calculadora.service';
 
 @Component({
   selector: 'app-calculadora',
   templateUrl: './calculadora.component.html',
   styleUrls: ['./calculadora.component.css'],
-  providers[CalculadoraService]
+  providers:[ServicioService]
 })
 export class CalculadoraComponent implements OnInit {
 resultado: number
-  constructor(private calculadora: CalculadoraService) { }
+a: number
+b: number
+  constructor(private calculadora: ServicioService) { }
 
   ngOnInit() {
   }
