@@ -10,7 +10,7 @@ import {paciente1} from '../paciente/paciente/paciente.component';
 import {Artista1} from '../banda/banda.component';
 import {Empresa1} from '../empresa/empresa.component';
 import { ServicioService } from './Servicios/servicio.service';
-import { SaludoComponent } from './saludo/saludo/saludo.component';
+import { SaludoComponent } from './saludo/saludo.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
