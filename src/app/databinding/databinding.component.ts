@@ -10,9 +10,12 @@ import { FormsModule } from '@angular/forms';
 export class DatabindingComponent implements OnInit {
 nombre:string;
 apellido:string;
+saludo: string ;
   constructor() { }
   
   ngOnInit() {
   }
-
+saludar():void {
+this.saludo="OK"
+}
 }
