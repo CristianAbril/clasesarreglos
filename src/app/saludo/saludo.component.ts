@@ -5,7 +5,7 @@ import { ServicioService } from '../Servicios/servicio.service';
   selector: 'app-saludo',
   templateUrl: './saludo.component.html',
   styleUrls: ['./saludo.component.css'],
-  providers:[ervicioService]
+  providers:[ServicioService]
 })
 
 export class SaludoComponent {

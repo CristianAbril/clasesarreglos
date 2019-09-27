@@ -11,10 +11,11 @@ import {Artista1} from '../banda/banda.component';
 import {Empresa1} from '../empresa/empresa.component';
 import { ServicioService } from './Servicios/servicio.service';
 import { SaludoComponent } from './saludo/saludo.component';
+import { DatabindingComponent } from './databinding/databinding.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, persona, pelicula, paciente1,Artista1,Empresa1, SaludoComponent],
+  declarations: [ AppComponent, HelloComponent, persona, pelicula, paciente1,Artista1,Empresa1, SaludoComponent, DatabindingComponent],
   bootstrap:    [ AppComponent ],
   providers: [ServicioService]
 })
