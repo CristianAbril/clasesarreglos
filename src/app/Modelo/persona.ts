@@ -9,6 +9,6 @@ export class Persona {
     return this.nombre;
   }
   getApellido():string{
-    retunr this.apellido;
+    return this.apellido;
   }
 }

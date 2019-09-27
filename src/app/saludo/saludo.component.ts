@@ -1,14 +1,18 @@
 import { Component, OnInit } from '@angular/core';
+import { ServicioService } from '../Servicios/servicio.service';
 
 @Component({
   selector: 'app-saludo',
   templateUrl: './saludo.component.html',
-  styleUrls: ['./saludo.component.css']
-  providere:[ServicioService]
+  styleUrls: ['./saludo.component.css'],
+  providers:[ServicioService]
 })
-export class SaludoComponent implements OnInit {
+
+export class SaludoComponent {
   mensajeSaludo : string ;
-  constructor(private miSaludo: SaludoService) { }
-  this.mensajeSaludo = this.miSaludo.saludar();
+  constructor(private miSaludo: ServicioService) {
+    this.mensajeSaludo = this.miSaludo.saludar();
+   }
+  
 
 }
