@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {VincularService }from '../servicios/vincular.service';
+import {VincularService }from './servicios/vincular.service';
 
 
 @Component({
@@ -16,11 +16,12 @@ export class ProyectoComponent implements OnInit {
   estadocivil: string;
 
 
-  constructor() { }
+  constructor() {
     this.nombre="Carlitos";
     this.apellido="Torres";
-    this.edad=18;
     this.estadocivil="soltero";
+   }
+    
   ngOnInit() {
   }
 
