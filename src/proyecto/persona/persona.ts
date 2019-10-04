@@ -8,7 +8,7 @@ sexo: string;
 estadocivil: string;
 boleano: boolean;
 idpublico: string;
-
+lista1=[]
 lista= []
 
 
