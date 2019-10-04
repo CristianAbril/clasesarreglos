@@ -13,11 +13,11 @@ import { ServicioService } from './Servicios/servicio.service';
 import { SaludoComponent } from './saludo/saludo.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { CalculadoraComponent } from './calculadora/calculadora.component';
-import { ProyectoComponent } from './proyecto/proyecto.component';
+
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, persona, pelicula, paciente1,Artista1,Empresa1, SaludoComponent, DatabindingComponent, CalculadoraComponent, ProyectoComponent],
+  declarations: [ AppComponent, HelloComponent, persona, pelicula, paciente1,Artista1,Empresa1, SaludoComponent, DatabindingComponent, CalculadoraComponent],
   bootstrap:    [ AppComponent ],
   providers: [ServicioService]
 })
