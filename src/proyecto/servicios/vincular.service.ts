@@ -2,11 +2,15 @@ import { Injectable } from '@angular/core';
 import {Documentos}  from '../persona/documentos' ;
 @Injectable()
 export class VincularService {
-vincular(idpersona:string,iddocumento:string){
+documento: Documentos;
+vincular(tipodocumento:string,iddocumento:string):Documentos{
     //arreglo de dos posiciones 
-    documentos[id]=idpersona;
-   
+    this.documento=new Documentos(iddocumento,tipodocumento);
+    return this.documento;
     }
-  constructor() { }
+  constructor() { 
+
+
+  }
 
 }
