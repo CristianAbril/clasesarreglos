@@ -8,9 +8,6 @@ vincular(tipodocumento:string,iddocumento:string):Documentos{
     this.documento=new Documentos(iddocumento,tipodocumento);
     return this.documento;
     }
-  constructor() { 
-
-
-  }
+  constructor() {}
 
 }

@@ -1,3 +1,6 @@
+import {Documentos}  from '../persona/documentos' ;
+
+
 export class Persona {
 nombre: string ;
 RH: string;
@@ -17,6 +20,11 @@ this.sexo=sexo;
 this.estadocivil=estadocivil;
 this.boleano=boleano;
 this.idpublico=idpublico;
+}
+
+//metodo de recibir y agregar documentos
+vincular(documento:Documentos):void{
+this.lista.push(documento);
 }
 
  getidpublico():string{
