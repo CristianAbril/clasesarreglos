@@ -17,9 +17,7 @@ export class ProyectoComponent implements OnInit {
 
 
   constructor() {
-    this.nombre="Carlitos";
-    this.apellido="Torres";
-    this.estadocivil="soltero";
+   
    }
     
   ngOnInit() {
