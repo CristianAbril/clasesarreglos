@@ -6,7 +6,7 @@ estadocivil: string;
 boleano: boolean;
 idpublico: string;
 
-lista= 
+lista= []
 
 
 constructor(nombre: string, RH: string,sexo: string, estadocivil: string,boleano: boolean,idpublico: string){
