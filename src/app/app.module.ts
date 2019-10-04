@@ -13,8 +13,8 @@ import { ServicioService } from './Servicios/servicio.service';
 import { SaludoComponent } from './saludo/saludo.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { CalculadoraComponent } from './calculadora/calculadora.component';
-import {vincularService }from '../proyecto/servicios/vincular.service';
- import{PersonaComponent} from '../proyecto/persona/persona.component';
+import {VincularService }from '../proyecto/servicios/vincular.service';
+import{PersonaComponent} from '../proyecto/persona/persona.component';
 
 
 @NgModule({
