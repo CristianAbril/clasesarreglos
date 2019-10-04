@@ -1,10 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import {Vincularservice }from '../servicios/vincular.service';
+import { FormsModule } from '@angular/forms';
+import {vincularService }from '../servicios/vincular.service';
 
 @Component({
   selector: 'app-persona',
   templateUrl: './persona.component.html',
-  styleUrls: ['./persona.component.css']
+  styleUrls: ['./persona.component.css'],
+  providers:[vincularService]
 })
 export class PersonaComponent implements OnInit {
 iddocumento: string
