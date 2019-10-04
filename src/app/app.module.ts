@@ -13,12 +13,15 @@ import { ServicioService } from './Servicios/servicio.service';
 import { SaludoComponent } from './saludo/saludo.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { CalculadoraComponent } from './calculadora/calculadora.component';
-import {vincularService }from '../servicios/vincular.service';
+import {vincularService }from '../proyecto/servicios/vincular.service';
+ import{PersonaComponent} from '../proyecto/persona/persona.component';
+
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
   declarations: [ AppComponent, HelloComponent, persona, pelicula, paciente1,Artista1,Empresa1, SaludoComponent, DatabindingComponent, CalculadoraComponent],
   bootstrap:    [ AppComponent ],
-  providers: [ServicioService],[vincularService]
+  providers: [ServicioService],
+  
 })
 export class AppModule { }
