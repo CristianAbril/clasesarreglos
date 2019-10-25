@@ -17,6 +17,7 @@ import {VincularService }from '../proyecto/servicios/vincular.service';
 import{PersonaComponent} from '../proyecto/persona/persona.component';
 
 
+
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
   declarations: [ AppComponent, HelloComponent, persona, pelicula, paciente1,Artista1,Empresa1, SaludoComponent, DatabindingComponent, CalculadoraComponent],
