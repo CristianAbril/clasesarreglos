@@ -1,9 +1,28 @@
-<p>
-a:<input type= "number" name="numero 1"[(ngModel)]="a"/>
-b:<input type= "number" name="numero 2"[(ngModel)]="b"/>
-
-<input type= "button" (click)="sumar()" value="sumar"/>
-<input type= "button" (click)="restar()" value="restar"/>
-<input type= "button" (click)="mul()" value="mul"/>
-
-</p>{{resultado}}
+<form action="/action_page.php">
+<h1>Prevención de desastres en zonas aledañas al rio</h1>
+<figure>
+  <img src="https://www.apeseg.org.pe/wp-content/uploads/2018/07/Prevenci%C3%B3-desastres-naturales-1.jpg" alt="" width="304" height="228">
+</figure>
+Con el fin de realizar la prevención de desastres en zonas aledañas al rio, se tiene el siguiente servicio de tener un historico de datos acerca de posibles desastrees, sin embargo solo quien tenga un cargo administrativo puede ingresar información, un usuario común, como un habitante del sector puede hacer consulta de los datos registrados en una fecha en especifico.
+<h2>Log in</h2>
+Cargo administrativo: <input type="text" name="Cargo administrativo" value=""><br>
+Fecha: <input type="text" name="Fecha" value=""><br>
+<br/>
+<input type="submit" value="Submit">
+<br/>
+<br/>
+<h2>Datos del desastre</h2>
+Registro: <input type="text" name="Registro" value=""><br>
+Longitud: <input type="text" name="Longitud" value=""><br>
+Latitud: <input type="text" name="Latitud" value=""><br>
+Caudal: <input type="text" name="Caudal" value=""><br>
+<br/>
+<input type="submit" value="Submit">
+<h2>Autorización</h2>
+Cargo administrativo: <input type="text" name="Cargo" value=""><br>
+<input type="submit" value="Submit">
+<br/>
+<h2>Busqueda</h2>
+Fecha de busqueda: <input type="text" name="fecha" value=""><br>
+<input type="submit" value="Submit">
+</form>
